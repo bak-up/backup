@@ -27,87 +27,87 @@ jobs:
         run: |
           bash ./backup.sh \
             https://github.com/SuMaiKaDe/bot main \
-            https://${{ github.repository_owner }}:${{ secrets.ACTION_SECRET }}@github.com/sync-auto/JD-Bot
+            https://${{ github.repository_owner }}:${{ secrets.ACTION_SECRET }}@github.com/backup/JD-Bot
       - name: JDHelloWorld
         run: |
           bash ./backup.sh \
             https://github.com/JDHelloWorld/jd_scripts main \
-            https://${{ github.repository_owner }}:${{ secrets.ACTION_SECRET }}@github.com/sync-auto/JDHelloWorld ts2js
+            https://${{ github.repository_owner }}:${{ secrets.ACTION_SECRET }}@github.com/backup/JDHelloWorld ts2js
       - name: KingRan           
         run: |
           bash ./backup.sh \
             https://github.com/KingRan/KR main \
-            https://${{ github.repository_owner }}:${{ secrets.ACTION_SECRET }}@github.com/sync-auto/KingRan
+            https://${{ github.repository_owner }}:${{ secrets.ACTION_SECRET }}@github.com/backup/KingRan
       - name: 6dylan6           
         run: |
           bash ./backup.sh \
             https://github.com/6dylan6/jdpro main \
-            https://${{ github.repository_owner }}:${{ secrets.ACTION_SECRET }}@github.com/sync-auto/6dylan6
+            https://${{ github.repository_owner }}:${{ secrets.ACTION_SECRET }}@github.com/backup/6dylan6
       #- name: star261
       #  run: |
       #    bash ./backup.sh \
       #      https://github.com/star261/jd main \
-      #      https://${{ github.repository_owner }}:${{ secrets.ACTION_SECRET }}@github.com/sync-auto/star261
+      #      https://${{ github.repository_owner }}:${{ secrets.ACTION_SECRET }}@github.com/backup/star261
       - name: wulove
         run: |
           bash ./backup.sh \
             https://github.com/wulove/my_scripts master \
-            https://${{ github.repository_owner }}:${{ secrets.ACTION_SECRET }}@github.com/sync-auto/wulove           
+            https://${{ github.repository_owner }}:${{ secrets.ACTION_SECRET }}@github.com/backup/wulove           
       - name: X1a0He
         run: |
           bash ./backup.sh \
             https://github.com/X1a0He/jd_scripts_fixed main \
-            https://${{ github.repository_owner }}:${{ secrets.ACTION_SECRET }}@github.com/sync-auto/X1a0He            
+            https://${{ github.repository_owner }}:${{ secrets.ACTION_SECRET }}@github.com/backup/X1a0He            
       - name: smiek2121
         run: |
           bash ./backup.sh \
             https://github.com/smiek2221/scripts master \
-            https://${{ github.repository_owner }}:${{ secrets.ACTION_SECRET }}@github.com/sync-auto/smiek2121
+            https://${{ github.repository_owner }}:${{ secrets.ACTION_SECRET }}@github.com/backup/smiek2121
       - name: LingFeng0918
         run: |
           bash ./backup.sh \
             https://github.com/LingFeng0918/LF_JD main \
-            https://${{ github.repository_owner }}:${{ secrets.ACTION_SECRET }}@github.com/sync-auto/LingFeng0918
+            https://${{ github.repository_owner }}:${{ secrets.ACTION_SECRET }}@github.com/backup/LingFeng0918
       - name: gys619
         run: |
           bash ./backup.sh \
             https://github.com/gys619/Absinthe main \
-            https://${{ github.repository_owner }}:${{ secrets.ACTION_SECRET }}@github.com/sync-auto/gys619
+            https://${{ github.repository_owner }}:${{ secrets.ACTION_SECRET }}@github.com/backup/gys619
       - name: JDWXX
         run: |
           bash ./backup.sh \
             https://github.com/JDWXX/jd_job master \
-            https://${{ github.repository_owner }}:${{ secrets.ACTION_SECRET }}@github.com/sync-auto/JDWXX
+            https://${{ github.repository_owner }}:${{ secrets.ACTION_SECRET }}@github.com/backup/JDWXX
       - name: jd-depot
         run: |
           bash ./backup.sh \
             https://github.com/Akali5/jd-depot main \
-            https://${{ github.repository_owner }}:${{ secrets.ACTION_SECRET }}@github.com/sync-auto/jd-depot            
+            https://${{ github.repository_owner }}:${{ secrets.ACTION_SECRET }}@github.com/backup/jd-depot            
       - name: QLScript2
         run: |
           bash ./backup.sh \
             https://github.com/ccwav/QLScript2 main \
-            https://${{ github.repository_owner }}:${{ secrets.ACTION_SECRET }}@github.com/sync-auto/QLScript2
+            https://${{ github.repository_owner }}:${{ secrets.ACTION_SECRET }}@github.com/backup/QLScript2
       - name: Checkjs
         run: |
           bash ./backup.sh \
             https://github.com/ITdesk01/Checkjs main \
-            https://${{ github.repository_owner }}:${{ secrets.ACTION_SECRET }}@github.com/sync-auto/Checkjs            
+            https://${{ github.repository_owner }}:${{ secrets.ACTION_SECRET }}@github.com/backup/Checkjs            
       - name: HarbourToulu
         run: |
           bash ./backup.sh \
             https://github.com/HarbourJ/HarbourToulu main \
-            https://${{ github.repository_owner }}:${{ secrets.ACTION_SECRET }}@github.com/sync-auto/HarbourToulu
+            https://${{ github.repository_owner }}:${{ secrets.ACTION_SECRET }}@github.com/backup/HarbourToulu
       - name: JDHelp
         run: |
           bash ./backup.sh \
             https://github.com/he1pu/JDHelp main \
-            https://${{ github.repository_owner }}:${{ secrets.ACTION_SECRET }}@github.com/sync-auto/JDHelp            
+            https://${{ github.repository_owner }}:${{ secrets.ACTION_SECRET }}@github.com/backup/JDHelp            
       - name: JDsc
         run: |
           bash ./backup.sh \
             https://github.com/inoyna12/JDsc master \
-            https://${{ github.repository_owner }}:${{ secrets.ACTION_SECRET }}@github.com/sync-auto/JDsc
+            https://${{ github.repository_owner }}:${{ secrets.ACTION_SECRET }}@github.com/backup/JDsc
             
       #- name: hundun
       #  run: |
