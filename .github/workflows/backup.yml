@@ -28,6 +28,11 @@ jobs:
           bash ./backup.sh \
             https://github.com/SuMaiKaDe/bot main \
             https://${{ github.repository_owner }}:${{ secrets.ACTION_SECRET }}@github.com/bak-up/JD-Bot
+      - name: faker3
+        run: |
+          bash ./backup.sh \
+            https://github.com/shufflewzc/faker3 main \
+            https://${{ github.repository_owner }}:${{ secrets.ACTION_SECRET }}@github.com/bak-up/faker3            
       - name: JDHelloWorld
         run: |
           bash ./backup.sh \
