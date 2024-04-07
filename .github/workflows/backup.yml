@@ -23,6 +23,11 @@ jobs:
       - uses: actions/setup-node@v2
         with:
           node-version: 'lts/*'
+      - name: DeathNote
+        run: |
+          bash ./backup.sh \
+            https://github.com/leafTheFish/DeathNote main \
+            https://${{ github.repository_owner }}:${{ secrets.ACTION_SECRET }}@github.com/bak-up/DeathNote         
       - name: faker2
         run: |
           bash ./backup.sh \
