@@ -28,7 +28,7 @@ jobs:
         run: |
           bash ./backup.sh \
             https://github.com/smallfawn/QLScriptPublic main \
-            https://${{ github.repository_owner }}:${{ secrets.ACTION_SECRET }}@github.com/bak-up/smallfawn                    
+            https://${{ github.repository_owner }}:${{ secrets.ACTION_SECRET }}@github.com/bak-up/smallfawnql                    
       - name: lzwme
         run: |
           bash ./backup.sh \
